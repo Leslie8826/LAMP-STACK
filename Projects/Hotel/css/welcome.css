@@ -136,9 +136,6 @@ section{
 }
 
 #menuRight h1 {
-    /*color: lightgrey;
-    text-decoration: underline;
-    text-decoration-color: darkgrey;*/
     color: darkblue;
     text-decoration: underline;
     text-decoration-color: blue;
@@ -153,14 +150,6 @@ section{
 #menuRight img {
     align: center;
 }
-
-
-    /*
-    img {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }*/
 
 .responsive-image{
     max-width: 100%;
