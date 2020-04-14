@@ -1,0 +1,57 @@
+/* css for rooms and suites*/
+.roomSuite{
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.roomSuite h1{
+    color: darkblue;
+    text-decoration: underline;
+    text-decoration-color: blue;
+}
+
+.roomSuite h2{
+    color: darkblue;
+}
+
+.roomSuite p{
+    color: dimgrey;
+}
+
+.roomSuite img{
+    display: block;
+    with: 500px;
+    height: 400px;
+    margin: 0 auto;
+}
+
+.bookingButton_room {
+    display: block;
+    background-color: darkblue;
+    width: 130px;
+    height: 30px;
+    /*margin: 4px 10px 0 0;*/
+    text-align: center;
+    line-height: 30px;
+    /* border-radius: 8px;*/
+    margin: 0 auto;
+}
+
+.bookingButton_room a{
+    color: white;
+    text-decoration: none;
+}
+.bookingButton_room a:hover {
+    color: navajowhite;
+    text-decoration: none;
+}
+
+/* Rules for the room container */
+.roomSuite_containter{
+    /*background-color: darkgrey;*/
+    background-color: lightgrey;
+
+
+}
+
+
