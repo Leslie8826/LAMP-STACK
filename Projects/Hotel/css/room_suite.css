@@ -30,10 +30,8 @@
     background-color: darkblue;
     width: 130px;
     height: 30px;
-    /*margin: 4px 10px 0 0;*/
     text-align: center;
     line-height: 30px;
-    /* border-radius: 8px;*/
     margin: 0 auto;
 }
 
@@ -48,10 +46,7 @@
 
 /* Rules for the room container */
 .roomSuite_containter{
-    /*background-color: darkgrey;*/
     background-color: lightgrey;
-
-
 }
 
 
