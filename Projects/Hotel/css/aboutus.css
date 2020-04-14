@@ -1,1 +1,31 @@
+/* Rules for body id in mid section*/
+#body {
+    background: lightgrey;
+    margin-bottom: 15px;
+    border: 1px solid black;
+    margin-top: 25px;
+}
+
+#body h1{
+    text-align: center;
+    color: darkblue;
+    text-decoration: underline;
+    text-decoration-color: blue;
+}
+
+#bio img{
+    width: 320px;
+    height: 200px;
+    float: left;
+    padding: 0 15px;
+}
+
+#bio p{
+    margin-top: 20px;
+}
+
+#bio {
+    padding-top: 15px;
+}
+
 
