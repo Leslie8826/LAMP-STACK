@@ -52,9 +52,6 @@ include('header.php')
     echo "<br>";
 ?>
 
-
-
-
     <?php
     /* Search for bed label in bed_type table*/
     /* Label of BedType = 1 */
@@ -90,9 +87,7 @@ include('header.php')
     $stmt4 = $db->prepare($query4);
     $stmt4->execute();
     $result4 = $stmt4->get_result();
-    //$l = $result->fetch_all(MYSQLI_ASSOC);
     $bedName4= $result4->fetch_row();
-
 
 
     /* bedTypeId=1*/
@@ -101,7 +96,6 @@ include('header.php')
     $stmt_1 = $db->prepare($query_1);
     $stmt_1->execute();
     $result_1 = $stmt_1->get_result();
-    //$l = $result->fetch_all(MYSQLI_ASSOC);
     $roomAvailable_1= $result_1->fetch_row();
 
     /* bedTypeId=2*/
@@ -110,7 +104,6 @@ include('header.php')
     $stmt_2 = $db->prepare($query_2);
     $stmt_2->execute();
     $result_2 = $stmt_2->get_result();
-    //$l = $result->fetch_all(MYSQLI_ASSOC);
     $roomAvailable_2= $result_2->fetch_row();
 
 
@@ -120,7 +113,6 @@ include('header.php')
     $stmt_3 = $db->prepare($query_3);
     $stmt_3->execute();
     $result_3 = $stmt_3->get_result();
-    //$l = $result->fetch_all(MYSQLI_ASSOC);
     $roomAvailable_3= $result_3->fetch_row();
 
     /* bedTypeId=4*/
@@ -129,15 +121,12 @@ include('header.php')
     $stmt_4 = $db->prepare($query_4);
     $stmt_4->execute();
     $result_4 = $stmt_4->get_result();
-    //$l = $result->fetch_all(MYSQLI_ASSOC);
     $roomAvailable_4= $result_4->fetch_row();
-
 
     echo "<br>";
     echo "Bed type: ".$bedName1[0]."\t";
     echo "Number of rooms available: ".$roomAvailable_1[0];
     ?>
-
 
 <?php
 date_default_timezone_set("America/New_York");
@@ -154,18 +143,6 @@ echo $dayOfWeek;
 echo "<br>";
 echo $day;?>
 
-
-<!--
-/* Print next week starting from today: */
-/*echo "Print the days of next week";
-$startDate = strtotime("Monday");
-$endDate = strtotime("+1 week", $startDate);
-
-while ($startDate < $endDate){
-    echo date("F d Y", $startDate)."<br>";
-    $startDate = strtotime("+1 day", $startDate);
-}
-?>-->
 
     <?php
     $startDate = strtotime("Monday");
