@@ -1,0 +1,170 @@
+/* RULES FOR MAIN PART */
+section{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.body{
+    display: flex;
+    font-family: arial, sans-serif;
+    border: 1px solid black;
+}
+
+.box{
+    display: flex;
+    margin: 20px;
+}
+
+/*MENU in body left*/
+/* General Container*/
+#menuLeft{
+    width: 20%;
+    padding: 2em;
+    color: black;
+    background: lightgray;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/*1st menuButton*/
+#menuButton1 {
+    background-color: dimgrey;
+    width: 150px;
+    height: 30px;
+    margin: 4px 10px 30px 0;
+    text-align: center;
+    line-height: 30px;
+}
+
+#menuButton1 a{
+    color: white;
+    text-decoration: none;
+}
+#menuButton1 a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+/*Second button left menu */
+#menuButton2 {
+    background-color: dimgrey;
+    width: 150px;
+    height: 30px;
+    margin: 4px 10px 30px 0;
+    text-align: center;
+    line-height: 30px;
+}
+
+#menuButton2 a{
+    color: white;
+    text-decoration: none;
+}
+#menuButton2 a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+/*3rd button left menu */
+#menuButton3 {
+    background-color: dimgrey;
+    width: 150px;
+    height: 30px;
+    margin: 4px 10px 30px 0;
+    text-align: center;
+    line-height: 30px;
+}
+
+#menuButton3 a{
+    color: white;
+    text-decoration: none;
+}
+#menuButton3 a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+/*Fourth button left menu */
+#menuButton4 {
+    background-color: dimgrey;
+    width: 150px;
+    height: 30px;
+    margin: 4px 10px 30px 0;
+    text-align: center;
+    line-height: 30px;
+}
+
+#menuButton4 a{
+    color: white;
+    text-decoration: none;
+}
+#menuButton4 a:hover{
+    color: black;
+    text-decoration: none;
+}
+
+/*Fifth button left menu */
+#menuButton5 {
+    background-color: dimgrey;
+    width: 150px;
+    height: 30px;
+    margin: 4px 10px 30px 0;
+    text-align: center;
+    line-height: 30px;
+}
+
+#menuButton5 a{
+    color: white;
+    text-decoration: none;
+}
+#menuButton5 a:hover{
+    color: black;
+    text-decoration: none;
+}
+
+#menuRight {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 40px 40px 40px 40px;
+    background-color: dimgrey;
+
+    display: flex;
+    flex-direction: column;
+    width: 830px;
+}
+
+#menuRight h1 {
+    /*color: lightgrey;
+    text-decoration: underline;
+    text-decoration-color: darkgrey;*/
+    color: darkblue;
+    text-decoration: underline;
+    text-decoration-color: blue;
+    text-align: center;
+}
+
+#menuRight p {
+    text-align: center;
+    color: lightgrey;
+}
+
+#menuRight img {
+    align: center;
+}
+
+
+    /*
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }*/
+
+.responsive-image{
+    max-width: 100%;
+}
+
+
+
