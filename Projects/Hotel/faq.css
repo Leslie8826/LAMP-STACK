@@ -1,1 +1,27 @@
+/*Rules for main part*/
+.question{
+    padding-bottom: 40px;
+    text-align: center;
+}
 
+.question h1{
+    color: darkblue;
+    text-decoration: underline;
+    text-decoration-color: blue;
+}
+
+.question h2{
+    color: darkblue;
+}
+
+.question p{
+    color: dimgrey;
+}
+
+/* Rules for the faq container */
+.faq_container{
+    border: 1px solid black;
+    background-color: lightgrey;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
