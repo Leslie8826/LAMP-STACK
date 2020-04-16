@@ -17,7 +17,7 @@ include('header.php')
     <!-- DB TEST -->
 <p> DB TEST </p>
     /*<?php
-    $db = new mysqli('127.0.0.1', 'root', 'MySQL_021282', 'hotel');
+    $db = new mysqli('127.0.0.1', 'root', 'xxxxxx', 'hotel');
     $query = "SELECT loyaltyMemberId, loyaltyMemberLabel FROM loyalty_member";
     $stmt = $db->prepare($query);
     $stmt->execute();
@@ -34,7 +34,7 @@ include('header.php')
     echo "<br>";
     $_POST['loyaltyMemberLabel'] = 'gold';
 
-    $mysqli = new mysqli('127.0.0.1', 'root', 'MySQL_021282', 'hotel');
+    $mysqli = new mysqli('127.0.0.1', 'root', 'xxxxxx', 'hotel');
     $stmt = $mysqli->prepare("SELECT * FROM loyalty_member WHERE loyaltyMemberLabel = ?");
     $stmt->bind_param("s", $_POST['loyaltyMemberLabel']);
     $stmt->execute();
@@ -55,7 +55,7 @@ include('header.php')
     <?php
     /* Search for bed label in bed_type table*/
     /* Label of BedType = 1 */
-    $db = new mysqli('127.0.0.1', 'root', 'MySQL_021282', 'hotel');
+    $db = new mysqli('127.0.0.1', 'root', 'xxxxxx', 'hotel');
     $query1 = "SELECT bedTypeName from bed_type where bedTypeId=1";
     $stmt1 = $db->prepare($query1);
     $stmt1->execute();
@@ -64,7 +64,7 @@ include('header.php')
     $bedName1= $result1->fetch_row();
 
     /* Label of BedType = 2 */
-    $db = new mysqli('127.0.0.1', 'root', 'MySQL_021282', 'hotel');
+    $db = new mysqli('127.0.0.1', 'root', 'xxxxxx', 'hotel');
     $query2 = "SELECT bedTypeName from bed_type where bedTypeId=2";
     $stmt2 = $db->prepare($query2);
     $stmt2->execute();
@@ -73,7 +73,7 @@ include('header.php')
     $bedName2= $result2->fetch_row();
 
     /* Label of BedType = 3 */
-    $db = new mysqli('127.0.0.1', 'root', 'MySQL_021282', 'hotel');
+    $db = new mysqli('127.0.0.1', 'root', 'xxxxx', 'hotel');
     $query3 = "SELECT bedTypeName from bed_type where bedTypeId=3";
     $stmt3 = $db->prepare($query3);
     $stmt3->execute();
@@ -82,7 +82,7 @@ include('header.php')
     $bedName3= $result3->fetch_row();
 
     /* Label of BedType = 3 */
-    $db = new mysqli('127.0.0.1', 'root', 'MySQL_021282', 'hotel');
+    $db = new mysqli('127.0.0.1', 'root', 'xxxxxx', 'hotel');
     $query4 = "SELECT bedTypeName from bed_type where bedTypeId=4";
     $stmt4 = $db->prepare($query4);
     $stmt4->execute();
@@ -91,7 +91,7 @@ include('header.php')
 
 
     /* bedTypeId=1*/
-    $db = new mysqli('127.0.0.1', 'root', 'MySQL_021282', 'hotel');
+    $db = new mysqli('127.0.0.1', 'root', 'xxxxxx', 'hotel');
     $query_1 = "SELECT count(roomId) as n from room where bedTypeId=1";
     $stmt_1 = $db->prepare($query_1);
     $stmt_1->execute();
