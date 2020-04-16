@@ -239,7 +239,7 @@ include('header.php')
                    /* VALIDATION FOR LOYALTY MEMBER */
                 /*$_POST['loyaltyMemberLabel'] = 'gold';*/
                 if (!(empty($_POST["loyaltyMemberLabel"]))){
-                    $mysqli = new mysqli('127.0.0.1', 'root', 'MySQL_021282', 'hotel');
+                    $mysqli = new mysqli('127.0.0.1', 'root', 'xxxxxx', 'hotel');
                     $stmt = $mysqli->prepare("SELECT * FROM loyalty_member WHERE loyaltyMemberLabel = ?");
                     $stmt->bind_param("s", $_POST['loyaltyMemberLabel']);
                     $stmt->execute();
