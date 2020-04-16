@@ -99,7 +99,7 @@ include('header.php')
     $roomAvailable_1= $result_1->fetch_row();
 
     /* bedTypeId=2*/
-    $db = new mysqli('127.0.0.1', 'root', 'MySQL_021282', 'hotel');
+    $db = new mysqli('127.0.0.1', 'root', 'xxxxxx', 'hotel');
     $query_2 = "SELECT count(roomId) as n from room where bedTypeId=2";
     $stmt_2 = $db->prepare($query_2);
     $stmt_2->execute();
@@ -108,7 +108,7 @@ include('header.php')
 
 
     /* bedTypeId=3*/
-    $db = new mysqli('127.0.0.1', 'root', 'MySQL_021282', 'hotel');
+    $db = new mysqli('127.0.0.1', 'root', 'xxxxx', 'hotel');
     $query_3 = "SELECT count(roomId) as n from room where bedTypeId=3";
     $stmt_3 = $db->prepare($query_3);
     $stmt_3->execute();
@@ -116,7 +116,7 @@ include('header.php')
     $roomAvailable_3= $result_3->fetch_row();
 
     /* bedTypeId=4*/
-    $db = new mysqli('127.0.0.1', 'root', 'MySQL_021282', 'hotel');
+    $db = new mysqli('127.0.0.1', 'root', 'xxxxxx', 'hotel');
     $query_4 = "SELECT count(roomId) as n from room where bedTypeId=3";
     $stmt_4 = $db->prepare($query_4);
     $stmt_4->execute();
