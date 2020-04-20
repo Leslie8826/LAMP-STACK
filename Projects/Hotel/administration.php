@@ -4,7 +4,7 @@
     <title>Home Sweet Home</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="Description" content="Home Sweeet Home About Us Page">
+    <meta name="Description" content="Home Sweeet Home Administration Page">
     <meta name="author" content="Leslie Nertomb">
     <link rel="stylesheet" href="css/room_suite.css">
     <link rel="stylesheet" href="css/main.css">
